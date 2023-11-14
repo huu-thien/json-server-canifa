@@ -1,9 +1,1227 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Hữu Dũng",
+      "username": "dung",
+      "email": "Dung11@gmail.com",
+      "password": "D_123456",
+      "role": "user",
+      "phone": "0346282603",
+      "address": "Số 7 Nguyễn Thị Minh Khai, Phường Bến Nghé, Quận 1, TP Hồ Chí Minh",
+      "imageUrl": "https://www.w3schools.com/w3images/avatar6.png"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyễn Hữu Thiện",
+      "username": "thien",
+      "email": "thien1@gmail.com",
+      "password": "T_123456",
+      "role": "admin",
+      "address": "Số 7 Nguyễn Thị Minh Khai, Phường Bến Nghé, Quận 1, TP Hồ Chí Minh",
+      "phone": "0346282603",
+      "imageUrl": "https://www.w3schools.com/w3images/avatar6.png"
+    },
+    {
+      "fullName": "Chuyên Tâm",
+      "username": "chuyentam",
+      "email": "chuyentamgvn@gmail.com",
+      "password": "Chuyen@123",
+      "role": "user",
+      "id": 4,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0fD8K3vn_KC4vBp8VBb1tWYomAQEDsF_MFw&usqp=CAU",
+      "address": "",
+      "phone": ""
+    },
+    {
+      "fullName": "Thiện Nguyễn Hữu",
+      "username": "nhthien.dut@gmail.com",
+      "email": "nhthien.dut@gmail.com",
+      "password": "User@123",
+      "role": "user",
+      "imageUrl": "https://lh3.googleusercontent.com/a/ACg8ocLPnRYqLKhD87V7c5vjCHVOm7DDf9z4RMOjmHk8rozwKg=s96-c",
+      "id": 5,
+      "address": "Số 7 Nguyễn Sinh Sắc, Hà Nội",
+      "phone": "0337489251"
+    },
+    {
+      "fullName": "Hữu Thiện Nguyễn",
+      "username": "thiencute180402@gmail.com",
+      "email": "thiencute180402@gmail.com",
+      "password": "User@123",
+      "role": "user",
+      "imageUrl": "https://lh3.googleusercontent.com/a/ACg8ocKC1g0K_MhWWKcDOlKtDtTY0GHbMKfi-THCDJRdOOl52A=s96-c",
+      "id": 6
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "blogs": [],
+  "products": [
+    {
+      "id": 1,
+      "nameProduct": "Áo phông nam người lớn cotton dáng rộng",
+      "codeProduct": "5TS23W002",
+      "originalPrice": 400000,
+      "percentSale": 0.15,
+      "typeProduct": "Áo",
+      "productFor": "man",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "pink",
+        "green",
+        "black"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/5/t/5ts23w002-sw142-1.webp",
+        "https://canifa.com/img/1000/1500/resize/5/t/5ts23w002-sb422-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/5/t/5ts23w002-sw142-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/5/t/5ts23w002-sg586-xl-1-u-x.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "nameProduct": "Áo sơ mi Oxford nam cotton dài tay",
+      "codeProduct": "8TH23W008",
+      "originalPrice": 499000,
+      "percentSale": 0,
+      "productFor": "man",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sl165-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sl165-xl-6.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sw001-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sw001-xl-4.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "nameProduct": "Bộ quần áo nữ có hình in",
+      "codeProduct": "6ST23W002",
+      "originalPrice": 549000,
+      "percentSale": 0.05,
+      "productFor": "woman",
+      "typeProduct": "Đồ bộ",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "orange",
+        "black",
+        "pink"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-se239-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sk010-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sm095-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sm095-m-1.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "nameProduct": "Váy liền nữ ngắn tay dáng A dài",
+      "codeProduct": "6DS23W006",
+      "originalPrice": 949000,
+      "percentSale": 0,
+      "productFor": "woman",
+      "typeProduct": "Váy",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "black"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-2.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-4.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-5.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "nameProduct": "Áo gilet len bé gái cổ tim",
+      "codeProduct": "1TE23W005",
+      "originalPrice": 349000,
+      "percentSale": 0,
+      "productFor": "childrenGirl",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "pink",
+        "lightBlue"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/1/t/1te23w005-fb488-130-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te23w005-fb488-130-2.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te23w005-fp040-130-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te23w005-fp040-130-2.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "nameProduct": "Áo len bé gái cổ tròn dài tay có hình in Minne",
+      "codeProduct": "1TE20W018",
+      "originalPrice": 349000,
+      "percentSale": 0.15,
+      "productFor": "childrenGirl",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "yellow"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-1.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-2.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-1.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-2.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "nameProduct": "Áo polo dài tay bé trai cotton USA có hình in",
+      "codeProduct": "2TP23W007",
+      "originalPrice": 249000,
+      "percentSale": 0.15,
+      "productFor": "childrenBoy",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "grey",
+        "white"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sw001-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sw001-3.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sa026-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sa026-1.webp"
+      ]
+    },
+    {
+      "id": 8,
+      "nameProduct": "Áo sơ mi bé trai cotton cổ đức cộc tay túi ốp ngực",
+      "codeProduct": "2TH23A001",
+      "originalPrice": 249000,
+      "percentSale": 0,
+      "productFor": "childrenBoy",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "purpleCharcoal",
+        "white"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sb195-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sb195-120-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sw001-120-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sw001-120-2.webp"
+      ]
+    },
+    {
+      "id": 9,
+      "nameProduct": "Quần nỉ nam dáng jogger bo gấu",
+      "codeProduct": "8BP23W006",
+      "originalPrice": 289000,
+      "percentSale": 0,
+      "productFor": "man",
+      "typeProduct": "Quần",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "Nỉ"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "grey",
+        "black"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/b/8bp23w006-sb422-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bp23w006-sb422-xl-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bp23w006-sa014-xl-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bp23w006-sb060-1.webp"
+      ]
+    },
+    {
+      "id": 10,
+      "nameProduct": "Quần jeans nam dáng ôm",
+      "codeProduct": "8BJ23A001",
+      "originalPrice": 750000,
+      "percentSale": 0.15,
+      "productFor": "man",
+      "typeProduct": "Quần",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "blue"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/b/8bj23a001-sj771-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bj23a001-sj771-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bj23a001-sj771-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bj23a001-sj770-31-1.webp"
+      ]
+    },
+    {
+      "id": 11,
+      "nameProduct": "Bộ quần áo nỉ nam áo dài tay có hình in quần dài dáng suông",
+      "codeProduct": "8ST22W005",
+      "originalPrice": 800000,
+      "percentSale": 0.25,
+      "productFor": "man",
+      "typeProduct": "Đồ bộ",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "yellow"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-xl-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-xl-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-1-thumb.webp"
+      ]
+    },
+    {
+      "id": 12,
+      "nameProduct": "Áo phông nam cổ tròn dáng suông",
+      "codeProduct": "8TS23A004",
+      "originalPrice": 169000,
+      "percentSale": 0,
+      "productFor": "man",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "60% cotton",
+        "40% polyester"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "yellow",
+        "white",
+        "blue"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/t/8ts23a004-so221-1-thumb.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8ts23a004-so221-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8ts23a004-so221-xl-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sw001-120-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8ts23a004-sg179-1.webp"
+      ]
+    },
+    {
+      "id": 13,
+      "nameProduct": "Áo phông nam người lớn cotton dáng rộng",
+      "codeProduct": "5TS23W002",
+      "originalPrice": 399000,
+      "percentSale": 0.15,
+      "typeProduct": "Áo",
+      "productFor": "man",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "pink",
+        "green",
+        "black"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/5/t/5ts23w002-sw142-1.webp",
+        "https://canifa.com/img/1000/1500/resize/5/t/5ts23w002-sb422-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/5/t/5ts23w002-sw142-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/5/t/5ts23w002-sg586-xl-1-u-x.webp"
+      ]
+    },
+    {
+      "id": 14,
+      "nameProduct": "Áo sơ mi Oxford nam cotton dài tay",
+      "codeProduct": "8TH23W008",
+      "originalPrice": 499000,
+      "percentSale": 0,
+      "productFor": "man",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sl165-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sl165-xl-6.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sw001-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sw001-xl-4.webp"
+      ]
+    },
+    {
+      "id": 15,
+      "nameProduct": "Bộ quần áo nữ có hình in",
+      "codeProduct": "6ST23W002",
+      "originalPrice": 549000,
+      "percentSale": 0.05,
+      "productFor": "woman",
+      "typeProduct": "Đồ bộ",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "orange",
+        "black",
+        "pink"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-se239-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sk010-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sm095-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sm095-m-1.webp"
+      ]
+    },
+    {
+      "id": 16,
+      "nameProduct": "Váy liền nữ ngắn tay dáng A dài",
+      "codeProduct": "6DS23W006",
+      "originalPrice": 949000,
+      "percentSale": 0,
+      "productFor": "woman",
+      "typeProduct": "Váy",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "black"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-2.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-4.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-5.webp"
+      ]
+    },
+    {
+      "id": 17,
+      "nameProduct": "Áo gilet len bé gái cổ tim",
+      "codeProduct": "1TE23W005",
+      "originalPrice": 349000,
+      "percentSale": 0,
+      "productFor": "childrenGirl",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "pink",
+        "lightBlue"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-1.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-2.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-1.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-2.webp"
+      ]
+    },
+    {
+      "id": 18,
+      "nameProduct": "Áo len bé gái cổ tròn dài tay có hình in Minne",
+      "codeProduct": "1TE20W018",
+      "originalPrice": 349000,
+      "percentSale": 0.15,
+      "productFor": "childrenGirl",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "yellow"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/1/t/1te23w005-fb488-130-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-2.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te23w005-fb488-130-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/1/t/1te20w018-sy079-110-2.webp"
+      ]
+    },
+    {
+      "id": 19,
+      "nameProduct": "Áo polo dài tay bé trai cotton USA có hình in",
+      "codeProduct": "2TP23W007",
+      "originalPrice": 249000,
+      "percentSale": 0.15,
+      "productFor": "childrenBoy",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "grey",
+        "white"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sw001-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sw001-3.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sa026-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sa026-1.webp"
+      ]
+    },
+    {
+      "id": 20,
+      "nameProduct": "Áo sơ mi bé trai cotton cổ đức cộc tay túi ốp ngực",
+      "codeProduct": "2TH23A001",
+      "originalPrice": 249000,
+      "percentSale": 0,
+      "productFor": "childrenBoy",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "purpleCharcoal",
+        "white"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sb195-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sb195-120-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sw001-120-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sw001-120-2.webp"
+      ]
+    },
+    {
+      "id": 21,
+      "nameProduct": "Quần nỉ nam dáng jogger bo gấu",
+      "codeProduct": "8BP23W006",
+      "originalPrice": 289000,
+      "percentSale": 0,
+      "productFor": "man",
+      "typeProduct": "Quần",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "Nỉ"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "grey",
+        "black"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/b/8bp23w006-sb422-xl-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bp23w006-sb422-xl-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bp23w006-sa014-xl-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bp23w006-sb060-1.webp"
+      ]
+    },
+    {
+      "id": 22,
+      "nameProduct": "Quần jeans nam dáng ôm",
+      "codeProduct": "8BJ23A001",
+      "originalPrice": 750000,
+      "percentSale": 0.15,
+      "productFor": "man",
+      "typeProduct": "Quần",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "blue"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/b/8bj23a001-sj771-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bj23a001-sj771-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bj23a001-sj771-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/b/8bj23a001-sj770-31-1.webp"
+      ]
+    },
+    {
+      "id": 23,
+      "nameProduct": "Bộ quần áo nỉ nam áo dài tay có hình in quần dài dáng suông",
+      "codeProduct": "8ST22W005",
+      "originalPrice": 800000,
+      "percentSale": 0.25,
+      "productFor": "man",
+      "typeProduct": "Đồ bộ",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "yellow"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-xl-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-xl-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-1-thumb.webp"
+      ]
+    },
+    {
+      "id": 24,
+      "nameProduct": "Áo phông nam cổ tròn dáng suông",
+      "codeProduct": "8TS23A004",
+      "originalPrice": 169000,
+      "percentSale": 0,
+      "productFor": "man",
+      "typeProduct": "Áo",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "60% cotton",
+        "40% polyester"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "yellow",
+        "white",
+        "blue"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/t/8ts23a004-so221-1-thumb.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8ts23a004-so221-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8ts23a004-so221-xl-1.webp",
+        "https://canifa.com/img/1000/1500/resize/2/t/2th23a001-sw001-120-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/t/8ts23a004-sg179-1.webp"
+      ]
+    },
+    {
+      "id": 25,
+      "nameProduct": "Bộ quần áo nữ có hình in",
+      "codeProduct": "6ST23W002",
+      "originalPrice": 549000,
+      "percentSale": 0.05,
+      "productFor": "woman",
+      "typeProduct": "Đồ bộ",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "orange",
+        "black",
+        "pink"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-se239-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sk010-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sm095-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sm095-m-1.webp"
+      ]
+    },
+    {
+      "id": 26,
+      "nameProduct": "Váy liền nữ ngắn tay dáng A dài",
+      "codeProduct": "6DS23W006",
+      "originalPrice": 949000,
+      "percentSale": 0,
+      "productFor": "woman",
+      "typeProduct": "Váy",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "black"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-2.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-4.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-5.webp"
+      ]
+    },
+    {
+      "id": 27,
+      "nameProduct": "Bộ quần áo nỉ nam áo dài tay có hình in quần dài dáng suông",
+      "codeProduct": "8ST22W005",
+      "originalPrice": 800000,
+      "percentSale": 0.25,
+      "productFor": "man",
+      "typeProduct": "Đồ bộ",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "yellow"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-xl-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-xl-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-1-thumb.webp"
+      ]
+    },
+    {
+      "id": 28,
+      "nameProduct": "Bộ quần áo nữ có hình in",
+      "codeProduct": "6ST23W002",
+      "originalPrice": 549000,
+      "percentSale": 0.05,
+      "productFor": "woman",
+      "typeProduct": "Đồ bộ",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "orange",
+        "black",
+        "pink"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-se239-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sk010-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sm095-m-1-ghep-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/s/6st23w002-sm095-m-1.webp"
+      ]
+    },
+    {
+      "id": 29,
+      "nameProduct": "Váy liền nữ ngắn tay dáng A dài",
+      "codeProduct": "6DS23W006",
+      "originalPrice": 1949000,
+      "percentSale": 0,
+      "productFor": "woman",
+      "typeProduct": "Váy",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "black"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-1-u.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-2.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-4.webp",
+        "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-5.webp"
+      ]
+    },
+    {
+      "id": 30,
+      "nameProduct": "Bộ quần áo nỉ nam áo dài tay có hình in quần dài dáng suông",
+      "codeProduct": "8ST22W005",
+      "originalPrice": 800000,
+      "percentSale": 0.25,
+      "productFor": "man",
+      "typeProduct": "Đồ bộ",
+      "description": "Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.Sản phẩm chất lượng cao, mặc thoải mái, thoáng mát.",
+      "material": [
+        "40% cotton",
+        "41% acrylic",
+        "19% nylon"
+      ],
+      "rate": {
+        "starAverage": 4,
+        "count": 15
+      },
+      "colors": [
+        "yellow"
+      ],
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "images": [
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-xl-1.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-xl-2.webp",
+        "https://canifa.com/img/1000/1500/resize/8/s/8st22w005-sy029-1-thumb.webp"
+      ]
+    }
   ],
-  "profile": { "name": "typicode" }
+  "orders": [
+    {
+      "email": "Dung11@gmail.com",
+      "cardHolder": "Nguyễn Hữu Dũng",
+      "cardNumber": "1234-1234-1234",
+      "billingAddress": "Số 7 Nguyễn Thị Minh Khai, Phường Bến Nghé, Quận 1, TP Hồ Chí Minh",
+      "phone": "0346282603",
+      "idUser": 1,
+      "totalBill": 1229650,
+      "createdAt": "11/11/2023 08:18:13",
+      "listProduct": [
+        {
+          "id": "WznagdeKsFuSK3p978Lq7x8C3Dw8uOg8mpFqReCBHMzyg6MPky8maU8yYisAGZ",
+          "idProduct": 2,
+          "color": "blue",
+          "size": "s",
+          "img": "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sl165-xl-1-u.webp",
+          "nameProduct": "Áo sơ mi Oxford nam cotton dài tay",
+          "quantity": 2,
+          "price": 499000,
+          "percentSale": 0,
+          "productFor": "man",
+          "typeProduct": "Áo"
+        },
+        {
+          "id": "nCM401PTX30lYnvSUcJRwMzMXXpMCGDabyfLzoIJRoglJFvZVL7vYd5RPjpJ4e",
+          "idProduct": 7,
+          "color": "grey",
+          "size": "m",
+          "img": "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sw001-1.webp",
+          "nameProduct": "Áo polo dài tay bé trai cotton USA có hình in",
+          "quantity": 1,
+          "price": 249000,
+          "percentSale": 0.15,
+          "productFor": "childrenBoy",
+          "typeProduct": "Áo"
+        }
+      ],
+      "status": "success",
+      "id": 1
+    },
+    
+    {
+      "email": "thiencute180402@gmail.com",
+      "cardHolder": "Hữu Thiện Nguyễn",
+      "cardNumber": "2222-3333-4444",
+      "billingAddress": "Số 7 Nguyễn Thị Minh Khai, Phường Bến Nghé, Quận 1, TP Hồ Chí Minh",
+      "phone": "0346282603",
+      "idUser": 7,
+      "totalBill": 429000,
+      "createdAt": "13/11/2023 01:06:06",
+      "listProduct": [
+        {
+          "id": "HRscNwguPpWAj0sdkmS1zm81jsQv9TgUeYUFoOJeqmSR0c2lCjyOrnNo7qlsgk",
+          "idProduct": 5,
+          "color": "lightBlue",
+          "size": "s",
+          "img": "https://canifa.com/img/1000/1500/resize/1/t/1te23w005-fb488-130-1-u.webp",
+          "nameProduct": "Áo gilet len bé gái cổ tim",
+          "quantity": 1,
+          "price": 349000,
+          "percentSale": 0,
+          "productFor": "childrenGirl",
+          "typeProduct": "Áo"
+        }
+      ],
+      "status": "success",
+      "id": 3
+    },
+    
+    
+    {
+      "email": "chuyentamgvn123@gmail.com",
+      "cardHolder": "Chuyên Tâm",
+      "cardNumber": "1234-1234-1234",
+      "billingAddress": "16 Ly Thuong Kiet",
+      "phone": "0337489251",
+      "idUser": 6,
+      "totalBill": 790650,
+      "createdAt": "13/11/2023 10:43:29",
+      "listProduct": [
+        {
+          "id": "dz0KOZJmh6BrYdct7cgKQRsytZi4KkO2EgWWyhibP4XioINjv2CkBj819lwsrb",
+          "idProduct": 2,
+          "color": "blue",
+          "size": "s",
+          "img": "https://canifa.com/img/1000/1500/resize/8/t/8th23w008-sl165-xl-1-u.webp",
+          "nameProduct": "Áo sơ mi Oxford nam cotton dài tay",
+          "quantity": 1,
+          "price": 499000,
+          "percentSale": 0,
+          "productFor": "man",
+          "typeProduct": "Áo"
+        },
+        {
+          "id": "c9PCTiYMbNFJtb3bMnD8DY24GyBAc44OynT2S2XCbmEYY61OS6dlRci1pMO1vh",
+          "idProduct": 7,
+          "color": "grey",
+          "size": "s",
+          "img": "https://canifa.com/img/1000/1500/resize/2/t/2tp23w007-sw001-1.webp",
+          "nameProduct": "Áo polo dài tay bé trai cotton USA có hình in",
+          "quantity": 1,
+          "price": 249000,
+          "percentSale": 0.15,
+          "productFor": "childrenBoy",
+          "typeProduct": "Áo"
+        }
+      ],
+      "status": "success",
+      "id": 6
+    },
+    {
+      "email": "thien1@gmail.com",
+      "cardHolder": "Nguyễn Hữu Thiện",
+      "cardNumber": "3333-3333-3333",
+      "billingAddress": "Số 7 Nguyễn Thị Minh Khai, Phường Bến Nghé, Quận 1, TP Hồ Chí Minh",
+      "phone": "0346282603",
+      "idUser": 2,
+      "totalBill": 1918000,
+      "createdAt": "13/11/2023 10:53:35",
+      "listProduct": [
+        {
+          "id": "Hv7SN639tSoQZWivy7cqg7LyQlycjHi9JqtcasJS2e91fZIE0LVFtK51yAnYje",
+          "idProduct": 16,
+          "color": "black",
+          "size": "m",
+          "img": "https://canifa.com/img/1000/1500/resize/6/d/6ds23w006-sk010-m-1-u.webp",
+          "nameProduct": "Váy liền nữ ngắn tay dáng A dài",
+          "quantity": 2,
+          "price": 949000,
+          "percentSale": 0,
+          "productFor": "woman",
+          "typeProduct": "Váy"
+        }
+      ],
+      "status": "success",
+      "id": 7
+    }
+  ]
 }
